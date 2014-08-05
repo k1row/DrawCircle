@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E722DD9C-E67A-4368-AB75-7E2EFE342FDE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DrawCircle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F2623E6898C83CDB4B4FB2EC54D2124500329CD2</key>
+		<string>github.com:k1row/DrawCircle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DrawCircle.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F2623E6898C83CDB4B4FB2EC54D2124500329CD2</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:k1row/DrawCircle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F2623E6898C83CDB4B4FB2EC54D2124500329CD2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F2623E6898C83CDB4B4FB2EC54D2124500329CD2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DrawCircle</string>
+		</dict>
+	</array>
+</dict>
+</plist>

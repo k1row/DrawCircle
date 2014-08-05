@@ -10,11 +10,12 @@
 		8065065516054E0AACBED4B0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C73118A345B74284B8F8FB4D /* libPods.a */; };
 		FB2D5D0D198F30510084047B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D5D0C198F30510084047B /* AppDelegate.swift */; };
 		FB2D5D10198F30510084047B /* DrawCircle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB2D5D0E198F30510084047B /* DrawCircle.xcdatamodeld */; };
-		FB2D5D12198F30510084047B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D5D11198F30510084047B /* ViewController.swift */; };
+		FB2D5D12198F30510084047B /* FindApViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D5D11198F30510084047B /* FindApViewController.swift */; };
 		FB2D5D15198F30510084047B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2D5D13198F30510084047B /* Main.storyboard */; };
 		FB2D5D17198F30510084047B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2D5D16198F30510084047B /* Images.xcassets */; };
 		FB2D5D23198F30510084047B /* DrawCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D5D22198F30510084047B /* DrawCircleTests.swift */; };
 		FB2D5D2E198F32220084047B /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D5D2D198F32220084047B /* Circle.swift */; };
+		FB72CC3D1990DCE600107E60 /* CurrentPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72CC3C1990DCE600107E60 /* CurrentPositionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,7 @@
 		FB2D5D0B198F30510084047B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2D5D0C198F30510084047B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB2D5D0F198F30510084047B /* DrawCircle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawCircle.xcdatamodel; sourceTree = "<group>"; };
-		FB2D5D11198F30510084047B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB2D5D11198F30510084047B /* FindApViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindApViewController.swift; sourceTree = "<group>"; };
 		FB2D5D14198F30510084047B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB2D5D16198F30510084047B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB2D5D1C198F30510084047B /* DrawCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +43,7 @@
 		FB2D5D22198F30510084047B /* DrawCircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCircleTests.swift; sourceTree = "<group>"; };
 		FB2D5D2C198F314A0084047B /* SwiftDrawCirclesApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDrawCirclesApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		FB2D5D2D198F32220084047B /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		FB72CC3C1990DCE600107E60 /* CurrentPositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentPositionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,8 @@
 				FB2D5D2C198F314A0084047B /* SwiftDrawCirclesApp-Bridging-Header.h */,
 				FB2D5D2D198F32220084047B /* Circle.swift */,
 				FB2D5D0C198F30510084047B /* AppDelegate.swift */,
-				FB2D5D11198F30510084047B /* ViewController.swift */,
+				FB2D5D11198F30510084047B /* FindApViewController.swift */,
+				FB72CC3C1990DCE600107E60 /* CurrentPositionViewController.swift */,
 				FB2D5D13198F30510084047B /* Main.storyboard */,
 				FB2D5D16198F30510084047B /* Images.xcassets */,
 				FB2D5D0E198F30510084047B /* DrawCircle.xcdatamodeld */,
@@ -265,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2D5D12198F30510084047B /* ViewController.swift in Sources */,
+				FB2D5D12198F30510084047B /* FindApViewController.swift in Sources */,
+				FB72CC3D1990DCE600107E60 /* CurrentPositionViewController.swift in Sources */,
 				FB2D5D2E198F32220084047B /* Circle.swift in Sources */,
 				FB2D5D0D198F30510084047B /* AppDelegate.swift in Sources */,
 				FB2D5D10198F30510084047B /* DrawCircle.xcdatamodeld in Sources */,

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FindApViewController.swift
 //  DrawCircle
 //
 //  Created by Keiichiro Nagashima on 2014/08/04.
@@ -11,7 +11,7 @@ import MapKit
 import CoreLocation
 import Foundation
 
-class ViewController: UIViewController, MKMapViewDelegate {
+class FindApViewController: UIViewController, MKMapViewDelegate {
                             
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var textSSID: UITextField!
@@ -42,14 +42,23 @@ class ViewController: UIViewController, MKMapViewDelegate {
         self.getApJson()
     }
 
+    @IBAction func btnClearPushed(sender: UIButton) {
+        self.clearText()
+    }
+
+    func clearText() -> Void {
+        self.textSSID.text = ""
+        self.textBSSID.text = ""
+    }
+    
     func getApJson() -> Void {
         let manager :AFHTTPRequestOperationManager = AFHTTPRequestOperationManager()
       
         manager.requestSerializer = AFJSONRequestSerializer()
         manager.responseSerializer = AFJSONResponseSerializer()
         
-        var key: String?
-        var name: String?
+        var key: String!
+        var name: String!
         if(textSSID.text != "") {
             key = "ssid"
             name = textSSID.text
@@ -73,9 +82,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
             self.items = responseObject as NSArray
             
             if(self.items.count == 0) {
-                self.textSSID.text = ""
-                self.textBSSID.text = ""
-                
+                self.clearText()
                 return self.showAlert("検索結果", message:"入力されたデータのAPは見つかりませんでした")
             }
             self.makeCircles()
@@ -86,8 +93,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
             SVProgressHUD.dismiss()
             NSLog("requestFailure: \(error)")
             
-            self.textSSID.text = ""
-            self.textBSSID.text = ""
+            self.clearText()
             return self.showAlert("エラー", message:"サーバエラー\n管理者にお問い合わせ下さい\n\n(\(error))")
         }
         
